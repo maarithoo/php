@@ -9,9 +9,15 @@ h1 {
     color: rgb(153, 71, 13);
 }
 
+h2 {
+    font-family: "Roboto", sans-serif;
+    line-height: 0.4em;
+    color: rgb(39, 17, 109);
+}
+
 p {
     font-family: "Roboto", sans-serif;
-    font-size: 1em;
-    color: darkslategray;
-    line-height: 1.5;
+    font-size: 0.7em;
+    color: rgb(83, 95, 95);
+    line-height: 0.5;
 }    

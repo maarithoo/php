@@ -13,29 +13,34 @@
         
         $kuvat = array (
 
-        $koira0 = array ( "kuva"=>"<img src='images/koira0.jpg'>",
-                "alt"=>"Juno tötterö päässä",
-                "width"=>"420",
-                "height" =>"600"),
+        $koira0 = array ("kuva"=>"<img src='images/koira0.jpg'>",
+                "alt"=>"<h2>Juno tötterö päässä</h2>",
+                "width"=>"<p>Kuvan leveys 420 px</p>",
+                "height" =>"<p> ja korkeus 600 px.</p>"),
 
-        $koira1 = array ( "kuva"=>"<img src='images/koira1.jpg'>",
-                "alt"=>"Pixi ja Juno kalliolla",
-                "width"=>"420",
-                "height"=>"600"),
+        $koira1 = array ("kuva"=>"<img src='images/koira1.jpg'>",
+                "alt"=>"<h2>Pixi ja Juno kalliolla</h2>",
+                "width"=>"<p>Kuvan leveys 400 px</p>",
+                "height"=>"<p> ja korkeus 620 px.</p>"),
 
-        $koira2 = array ( "kuva"=>"<img src='images/koira2.jpg'>",
-                "alt"=>"Pixi lempisiilinsä kanssa",
-                "width"=>"420",
-                "height"=>"600"),
+        $koira2 = array ("kuva"=>"<img src='images/koira2.jpg'>",
+                "alt"=>"<h2>Pixi lempisiilinsä kanssa</h2>",
+                "width"=>"<p>Kuvan leveys 410 px</p>",
+                "height"=>"<p> ja korkeus 610 px.</p>"),
 
-        $koira3 = array ( "kuva"=>"<img src='images/koira3.jpg'>",
-                "alt"=>"Pixi ja Juno sylikkäin",
-                "width"=>"420",
-                "height"=>"600")
+        $koira3 = array ("kuva"=>"<img src='images/koira3.jpg'>",
+                "alt"=>"<h2>Pixi ja Juno pedissä</h2>",
+                "width"=>"<p>Kuvan leveys 430 px</p>",
+                "height"=>"<p> ja korkeus 610 px.</p>")
         );
+        
+        foreach($kuvat[rand(0,count($kuvat)-1)] as $x => $val) {
+            echo "$val";
+          }
 
-        echo $kuvat[rand(0,count($kuvat)-1)]["kuva"];
-    
+        //echo $kuvat[rand(0,count($kuvat)-1)]["kuva"];
+        //echo "<br>";
+        //echo $kuvat[rand(0,count($kuvat)-1)]["alt"];
     ?>
 
     </body>
