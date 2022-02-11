@@ -6,31 +6,28 @@
         <title>Satunnainen koirakuva</title>
 	</head>
 	<body>
-    <?php
+        <h1>Satunnainen koirakuva</h1>
 
-        /*$kuvat[] = "koira0";
-        $kuvat[] = "koira1";
-        $kuvat[] = "koira2";
-        $kuvat[] = "koira3"; */
+    <?php
         
         $kuvat = array (
 
-        $koira0 = array ( "kuva"=>"img src=../koira0.jpg",
+        $koira0 = array ( "kuva"=>"<img src='images/koira0.jpg'>",
                 "alt"=>"Juno tötterö päässä",
                 "width"=>"420",
                 "height" =>"600"),
 
-        $koira1 = array ( "kuva"=>"img src=../koira1.jpg",
+        $koira1 = array ( "kuva"=>"<img src='images/koira1.jpg'>",
                 "alt"=>"Pixi ja Juno kalliolla",
                 "width"=>"420",
                 "height"=>"600"),
 
-        $koira2 = array ( "kuva"=>"img src=../koira2.jpg",
+        $koira2 = array ( "kuva"=>"<img src='images/koira2.jpg'>",
                 "alt"=>"Pixi lempisiilinsä kanssa",
                 "width"=>"420",
                 "height"=>"600"),
 
-        $koira0 = array ( "kuva"=>"img src=../koira3.jpg",
+        $koira0 = array ( "kuva"=>"<img src='images/koira3.jpg'>",
                 "alt"=>"Pixi ja Juno sylikkäin",
                 "width"=>"420",
                 "height"=>"600")
@@ -38,9 +35,9 @@
 
         echo $kuvat[rand(0,count($kuvat)-1)];
 
-    /* img src="../koira1.jpg" */
+        /*echo "<img src='images/koira0.jpg'>";*/
+    
     ?>
 
-    
     </body>
 </html>
