@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
         <title>Satunnainen koirakuva</title>
 	</head>
 	<body>
@@ -27,15 +28,13 @@
                 "width"=>"420",
                 "height"=>"600"),
 
-        $koira0 = array ( "kuva"=>"<img src='images/koira3.jpg'>",
+        $koira3 = array ( "kuva"=>"<img src='images/koira3.jpg'>",
                 "alt"=>"Pixi ja Juno sylikkäin",
                 "width"=>"420",
                 "height"=>"600")
         );
 
-        echo $kuvat[rand(0,count($kuvat)-1)];
-
-        /*echo "<img src='images/koira0.jpg'>";*/
+        echo $kuvat[rand(0,count($kuvat)-1)]["kuva"];
     
     ?>
 

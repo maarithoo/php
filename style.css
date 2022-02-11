@@ -1,0 +1,17 @@
+* {
+    background-color: rgb(243, 215, 170);
+    text-align: center;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    line-height: 1em;
+    color: rgb(153, 71, 13);
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    color: darkslategray;
+    line-height: 1.5;
+}    
