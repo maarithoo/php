@@ -21,3 +21,15 @@ p {
     color: rgb(83, 95, 95);
     line-height: 0.5;
 }    
+
+#reload {
+    background-color: purple;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    padding:5px 10px;
+}
+
+#reload:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.20), 0 12px 20px 0 rgba(0,0,0,0.15);
+}

@@ -38,10 +38,9 @@
             echo "$val";
           }
 
-        //echo $kuvat[rand(0,count($kuvat)-1)]["kuva"];
-        //echo "<br>";
-        //echo $kuvat[rand(0,count($kuvat)-1)]["alt"];
     ?>
-
+    
+    <button type="button" id="reload" onClick="window.location.reload();">Lataa uusi kuva</button>
+          
     </body>
 </html>
