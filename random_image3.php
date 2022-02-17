@@ -36,7 +36,7 @@
         
         $randomLuku = rand(0,count($kuvat)-1);
 
-        echo '<img src="' . $kuvat[$randomLuku]['src'] . '"alt="' . $kuvat[$randomLuku]['alt'] . '"height="' . $kuvat[$randomLuku]['heigth'] . '"width="' . $kuvat[$randomLuku]['width'] .'"/>';
+        echo '<img src="' . $kuvat[$randomLuku]['src'] . '" alt="' . $kuvat[$randomLuku]['alt'] . '" height="' . $kuvat[$randomLuku]['height'] . '" width="' . $kuvat[$randomLuku]['width'] .'"/>';
         echo "<br>"
 
     ?>
