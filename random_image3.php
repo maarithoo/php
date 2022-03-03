@@ -18,17 +18,17 @@
                 "width"=>"400 px",
                 "height" =>"600 px"),
 
-        $koira1 = array ("src"=>"images/koira0.jpg",
+        $koira1 = array ("src"=>"images/koira1.jpg",
                 "alt"=>"Pixi ja Juno kalliolla",
                 "width"=>"400 px",
                 "height"=>"600 px"),
 
-        $koira2 = array ("src"=>"images/koira0.jpg",
+        $koira2 = array ("src"=>"images/koira2.jpg",
                 "alt"=>"Pixi lempisiilinsä kanssa",
                 "width"=>"400 px",
                 "height" =>"600 px"),
 
-        $koira3 = array ("src"=>"images/koira0.jpg",
+        $koira3 = array ("src"=>"images/koira3.jpg",
                 "alt"=>"Pixi ja Juno pedissä",
                 "width"=>"400 px",
                 "height" =>"600 px"),

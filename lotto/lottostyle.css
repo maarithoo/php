@@ -1,0 +1,111 @@
+* {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-image: url("tausta.jpg");
+    background-repeat: no-repeat;
+    background-position: middle top;
+}
+
+header {
+    margin: 5% 0 2% 0;
+}
+
+footer {
+    margin: 5% 0 5% 0;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-weight: 400;
+    line-height: 1.2em;
+    color: white;
+    padding-top: 20px;
+}
+
+p {
+    font-size: 1em;
+    color: white;
+    line-height: 1em;
+}    
+
+input[type=text] {
+    width: 120px; display: inline;
+    height: 120px;
+    background-color: white;
+    border-radius: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    color: purple;
+    outline: none;    
+}
+
+.ohje {
+    margin: 1% 0 3% 0;
+}
+
+.gradient {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #9b7beb, #714af0);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.nappi {
+    width: 20%;
+    height: 60px;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 20px;
+    
+    background: linear-gradient(-45deg, #0a0c79, #511691, #4a3481, #352372);
+    background-size: 200% auto;
+    
+    
+    animation: gradient 4s ease infinite;
+}
+
+.nappi:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.20), 0 12px 20px 0 rgba(0,0,0,0.55);
+}
+
+.nappi2 {
+    background-color: rgb(238, 23, 145);
+    color: white;
+    border-radius: 10px;
+    padding:20px 30px;
+    margin: 20px;
+    border: 0;
+}
+
+.nappi2:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.20), 0 12px 20px 0 rgba(0,0,0,0.55);
+}
