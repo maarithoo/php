@@ -85,11 +85,8 @@ input[type=text] {
     border-radius: 10px;
     border: 0;
     margin-top: 20px;
-    
     background: linear-gradient(-45deg, #0a0c79, #511691, #4a3481, #352372);
     background-size: 200% auto;
-    
-    
     animation: gradient 4s ease infinite;
 }
 
