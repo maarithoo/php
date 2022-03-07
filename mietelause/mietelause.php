@@ -36,7 +36,7 @@
         echo "<aside class=" . $rivi[1] . "> Kategoria:<br>" . $rivi[1] . "</aside><br>"; 
 
 
-    /* Tehtävänannossa kehotettiin käyttämään if-lausetta, eli tein ensin tämän version taustavärin vaihtumisesta. Kuitenkin ylempänä oleva vaihtoehto on toteutettu yksinkertaisemmin, joten jätin sen voimaan.
+    /* Tehtävänannossa kehotettiin käyttämään if-lausetta, eli tein ensin tämän version kategorian taustavärin vaihtumisesta. Kuitenkin ylempänä oleva vaihtoehto on toteutettu yksinkertaisemmin, joten jätin sen voimaan.
 
     if ($rivi[1] == "Oppiminen") {
         $kategoria = "Oppiminen"; 
