@@ -44,7 +44,7 @@ h1 {
     flex: 1;
 }
 
-.oppiminen {
+.Oppiminen {
     background-color: paleturquoise;
     font-size: 1em;
     padding-top: 3vh;
@@ -52,7 +52,7 @@ h1 {
     flex: 1;
 }
 
-.ystavyys {
+.Ystävyys {
     background-color: pink;
     font-size: 1em;
     padding-top: 3vh;
@@ -60,7 +60,7 @@ h1 {
     flex: 1;
 }
 
-.elama {
+.Elämä {
     background-color: plum;
     font-size: 1em;
     padding-top: 3vh;
@@ -68,7 +68,7 @@ h1 {
     flex: 1;
 }
 
-.aika {
+.Aika {
     background-color: salmon;
     font-size: 1em;
     padding-top: 3vh;
@@ -76,7 +76,7 @@ h1 {
     flex: 1;
 }
 
-.onnellisuus {
+.Onnellisuus {
     background-color: sandybrown;
     font-size: 1em;
     padding-top: 3vh;

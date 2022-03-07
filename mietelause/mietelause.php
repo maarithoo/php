@@ -22,30 +22,38 @@ if (mysqli_connect_errno()) {
 // Asetetaan merkistö jotta ääkköset näkyvät
 mysqli_set_charset($tietokantayhteys,"utf8");
 
+// Haetaan tietokantataulusta satunnainen aforismi
 $sqlkom = "SELECT * FROM maarit_aforismit ORDER BY RAND() LIMIT 1";
 $hakutulos = mysqli_query($tietokantayhteys, $sqlkom);
 
+// Haetaan arraysta halutut arvot loopilla
 while ($rivi = mysqli_fetch_array($hakutulos))
 {   
     echo "<div class='flex-container'>";
         echo "<main class='main'>$rivi[3]</main><br>";
         echo "<nav class='byline'>Lähde:<br>$rivi[2]</nav><br>";
 
+    // Vaihdetaan divin taustaväri näytetyn kategorian mukaan
+    $kategoria = $rivi[1];
+    
     if ($rivi[1] == "Oppiminen") {
-        echo "<aside class='oppiminen'>Kategoria:<br>$rivi[1]</aside><br>"; 
+        $kategoria = "Oppiminen"; 
         }    
         elseif ($rivi[1] == "Ystävyys") {
-            echo "<aside class='ystavyys'>Kategoria:<br>$rivi[1]</aside><br>"; 
+            $kategoria = "Ystävyys"; 
         }
         elseif ($rivi[1] == "Elämä") {
-            echo "<aside class='elama'>Kategoria:<br>$rivi[1]</aside><br>"; 
+            $kategoria = "Elämä"; 
         } 
         elseif ($rivi[1] == "Aika") {
-            echo "<aside class='aika'>Kategoria:<br>$rivi[1]</aside><br>"; 
+            $kategoria = "Aika"; 
         } 
-        else {
-            echo "<aside class='onnellisuus'>Kategoria:<br>$rivi[1]</aside><br>"; 
-        } 
+        elseif ($rivi[1] == "Onnellisuus") {
+            $kategoria = "Onnellisuus"; 
+        }
+        
+        echo "<aside class='$kategoria'>" . "Kategoria:<br>" . $rivi[1] . "</aside><br>"; 
+        
         echo "</div>";
 }
 ?>
