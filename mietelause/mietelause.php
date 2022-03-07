@@ -29,7 +29,7 @@
     // Haetaan arraysta halutut arvot loopilla
     $rivi = mysqli_fetch_array($hakutulos);
     
-    // Tulostetaan halutut taulukkoarvot css:llä määriteltyihin diveihin, kategoria-arvojen taustaväri muuttuu näytetyn aforismin mukaan, kts. myös vaihtoehtoinen if-lauseella toteutus allaolevissa kommentoissa.
+    // Tulostetaan halutut taulukkoarvot css:llä määriteltyihin diveihin, kategoria-arvojen taustaväri muuttuu näytetyn aforismin mukaan, kts. myös vaihtoehtoinen if-lauseen toteutus allaolevassa kommentissa.
     echo "<div class='flex-container'>";
         echo "<main class='main'>$rivi[3]</main><br>";
         echo "<nav class='byline'>Lähde:<br>$rivi[2]</nav><br>";
@@ -53,7 +53,7 @@
         elseif ($rivi[1] == "Onnellisuus") {
             $kategoria = "Onnellisuus"; 
         } 
-        echo "<aside class=" . $rivi[1] . "> Kategoria:<br>" . $rivi[1] . "</aside><br>"; */
+        echo "<aside class=" . $kategoria . "> Kategoria:<br>" . $rivi[1] . "</aside><br>"; */
         
     echo "</div>";
 
