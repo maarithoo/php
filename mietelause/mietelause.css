@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+header {
+    background-color: purple;
+    height: 15vh;
+    padding: 2vh 7vw 2vh 5vw;
+    margin-bottom: 7vh;
+}
+
+body {
+    background-color: ivory;
+}
+
+footer {
+    padding: 2vh 0 0 4vw;
+}
+
+h1 {
+    font-size: 3em;
+    color: ivory;
+}
+
+.main {
+    font-size: 4em;
+    font-style: italic;
+    color: dimgray;
+    line-height: 1.2em;
+    padding-left: 5vw;
+    padding-right: 4vw;
+    margin: 0;
+    border-right: 15px solid purple;
+    flex: 4;
+}
+
+.byline {
+    font-size: 1em;
+    font-style: italic;
+    padding-top: 3vh;
+    padding-left: 2vw;
+    flex: 1;
+}
+
+.oppiminen {
+    background-color: paleturquoise;
+    font-size: 1em;
+    padding-top: 3vh;
+    padding-left: 2vw;
+    flex: 1;
+}
+
+.ystavyys {
+    background-color: pink;
+    font-size: 1em;
+    padding-top: 3vh;
+    padding-left: 2vw;
+    flex: 1;
+}
+
+.elama {
+    background-color: plum;
+    font-size: 1em;
+    padding-top: 3vh;
+    padding-left: 2vw;
+    flex: 1;
+}
+
+.aika {
+    background-color: salmon;
+    font-size: 1em;
+    padding-top: 3vh;
+    padding-left: 2vw;
+    flex: 1;
+}
+
+.onnellisuus {
+    background-color: sandybrown;
+    font-size: 1em;
+    padding-top: 3vh;
+    padding-left: 2vw;
+    flex: 1;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.reload {
+    background-color: purple;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    padding:10px 30px;
+    margin: 20px;
+}
