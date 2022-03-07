@@ -29,10 +29,11 @@
     // Haetaan arraysta halutut arvot loopilla
     $rivi = mysqli_fetch_array($hakutulos);
     
-    // Tulostetaan halutut taulukkoarvot css:llä määriteltyihin diveihin, kategoria-arvojen taustaväri muuttuu näytetyn aforismin mukaan, kts. myös vaihtoehtoinen if-lauseen toteutus allaolevassa kommentissa.
+    // Tulostetaan halutut taulukkoarvot css:llä määriteltyihin diveihin
     echo "<div class='flex-container'>";
-        echo "<main class='main'>$rivi[3]</main><br>";
-        echo "<nav class='byline'>Lähde:<br>$rivi[2]</nav><br>";
+        echo "<main class='main'" . $rivi[3] . "></main><br>";
+        echo "<section class='section'>Lähde:<br>" . $rivi[2] . "</section><br>";
+        // kategoria-arvojen taustaväri muuttuu näytetyn aforismin mukaan, kts. myös vaihtoehtoinen if-lauseen toteutus allaolevassa kommentissa.
         echo "<aside class=" . $rivi[1] . "> Kategoria:<br>" . $rivi[1] . "</aside><br>"; 
 
 

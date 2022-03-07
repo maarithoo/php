@@ -36,7 +36,7 @@ h1 {
     flex: 4;
 }
 
-.byline {
+.section {
     font-size: 1em;
     font-style: italic;
     padding-top: 3vh;
@@ -90,7 +90,7 @@ h1 {
 }
 
 .reload {
-    background-color: indigo;
+    background-color: purple;
     color: white;
     border: 0px;
     border-radius: 4px;
