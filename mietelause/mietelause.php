@@ -34,8 +34,6 @@ while ($rivi = mysqli_fetch_array($hakutulos))
         echo "<nav class='byline'>Lähde:<br>$rivi[2]</nav><br>";
 
     // Vaihdetaan divin taustaväri näytetyn kategorian mukaan
-    $kategoria = $rivi[1];
-    
     if ($rivi[1] == "Oppiminen") {
         $kategoria = "Oppiminen"; 
         }    
@@ -52,7 +50,7 @@ while ($rivi = mysqli_fetch_array($hakutulos))
             $kategoria = "Onnellisuus"; 
         }
         
-        echo "<aside class='$kategoria'>" . "Kategoria:<br>" . $rivi[1] . "</aside><br>"; 
+        echo "<aside class=" . $kategoria . "> Kategoria:<br>" . $rivi[1] . "</aside><br>"; 
         
         echo "</div>";
 }
