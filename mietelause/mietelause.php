@@ -31,10 +31,10 @@
     
     // Tulostetaan halutut taulukkoarvot css:llä määriteltyihin diveihin
     echo "<div class='flex-container'>";
-        echo "<main class='main'" . $rivi[3] . "></main><br>";
-        echo "<section class='section'>Lähde:<br>" . $rivi[2] . "</section><br>";
+        echo "<main class='main'>$rivi[3]</main><br>";
+        echo "<section class='section'>Lähde:<br>$rivi[2]</section><br>";
         // kategoria-arvojen taustaväri muuttuu näytetyn aforismin mukaan, kts. myös vaihtoehtoinen if-lauseen toteutus allaolevassa kommentissa.
-        echo "<aside class=" . $rivi[1] . "> Kategoria:<br>" . $rivi[1] . "</aside><br>"; 
+        echo "<aside class=" . $rivi[1] . "> Kategoria:<br>" . $rivi[1] . "</aside><br>";
 
 
     /* Tehtävänannossa kehotettiin käyttämään if-lausetta, eli tein ensin tämän version kategorian taustavärin vaihtumisesta. Kuitenkin ylempänä oleva vaihtoehto on toteutettu yksinkertaisemmin, joten jätin sen voimaan.
