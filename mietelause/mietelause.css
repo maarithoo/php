@@ -41,6 +41,9 @@ h1 {
     font-style: italic;
     padding-top: 3vh;
     padding-left: 2vw;
+    background-image: url("quote.png");
+    background-repeat: no-repeat;
+    background-position: center top;
     flex: 1;
 }
 
