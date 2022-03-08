@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="mietelause.css">
 </head>
 
-<header><h1>Aforismiautomaatti<h1></header>
+<header><h1>Aforismiautomaatti</h1></header>
+
 <body>
- 
 <?php
     // aukaistaan tietokantayhteys
     $tietokantayhteys = 
