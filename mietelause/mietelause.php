@@ -26,7 +26,7 @@
     $sqlkom = "SELECT * FROM maarit_aforismit ORDER BY RAND() LIMIT 1";
     $hakutulos = mysqli_query($tietokantayhteys, $sqlkom);
 
-    // Haetaan arraysta halutut arvot loopilla
+    // Haetaan arraysta halutut arvot
     $rivi = mysqli_fetch_array($hakutulos);
     
     // Tulostetaan halutut taulukkoarvot css:llä määriteltyihin diveihin
